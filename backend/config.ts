@@ -5,7 +5,7 @@ import * as config from './config';
 dotenv.config();
 
 export const backendPort = (): number => {
-	return 4902;
+	return 4211;
 }
 
 export const frontendPort = (): number => {

@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "conc \"npm run api\" \"npm run frontend\"",
 		"api": "nodemon",
-		"frontend": "vite --port 4901 --open",
+		"frontend": "vite --port 4311 --open",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
