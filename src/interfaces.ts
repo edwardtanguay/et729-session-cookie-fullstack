@@ -19,3 +19,13 @@ export interface IUser {
 	email: string;
 	address: IAddress;
 }
+
+export interface ILoginFormData {
+	login: string;
+	password: string;
+}
+
+export const initialLoginFormData = {
+	login: '',
+	password: ''
+}
