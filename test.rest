@@ -43,7 +43,7 @@ content-type: application/json
 {
 	"firstName": "Amber",
 	"lastName": "Ashton",
-	"login": "",
+	"login": "aa",
 	"hash": "",	
 	"email": "aa@company.com",
 	"address" : {
@@ -72,3 +72,18 @@ content-type: application/json
 {
 	"mobile": 999
 }
+
+### LOGIN USER
+POST {{url}}/users/login
+content-type: application/json
+	
+{
+	"login": "aa",
+	"password": ""
+}
+
+### CURRENT USER
+GET {{url}}/users/current	
+
+### LOGOUT USER
+GET {{url}}/users/logout
